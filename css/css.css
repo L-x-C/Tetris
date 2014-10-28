@@ -1,0 +1,64 @@
+#container{z-index:0}
+#container #head {
+	font-weight: bold;
+	color:black;
+	font-size: 24px;
+	font-family: "MS Serif", "New York", serif;
+	text-align: center;
+	margin-top:30px;
+}
+
+#container #info{
+	border:1px solid #1B3647;
+	font-size:18px;
+	width:500px;
+	margin:0 auto;
+	height:35px;
+	padding:5px;
+	margin-top:30px;
+	border-radius:10px;
+	box-shadow:5px 5px 15px #1B3647;
+}
+#container #info #speed{
+	float:left;
+	line-height:25px;
+}
+#container #info #score{
+	float:left;
+	margin-left:100px;
+	line-height:25px;
+	
+}
+
+#container #info #maxScore{
+	float:right;
+	line-height:25px;
+}
+#container #canvas{
+	border:1px solid #D06503;
+	position: absolute;
+	left:0;
+	right: 0;
+	margin:0 auto;
+	top:150px;
+	box-shadow:0px 0px 20px #D06503;
+}
+#container #author{
+	font-size:24px;
+	float:right;
+	margin-right:30px;
+	margin-top:450px;
+}
+#container #a_info img{
+	height:35px;
+	width:35px;
+}
+#container #a_info{
+	float:right;
+	margin-right:-105px;
+	margin-top:400px;
+
+}
+#surprise{
+	display:none;
+}
